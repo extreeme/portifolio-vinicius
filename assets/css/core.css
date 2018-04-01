@@ -1,3 +1,43 @@
-.nav-item .nav-link {
-    background-color: white
+.textoInicial {
+    position: relative;
+    top: 100px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    color: #2d2d34
+}
+
+#bgInicial {
+    /*    background-image: url("../img/bg.jpg");*/
+    /*    background-size: cover;*/
+    height: 500px
+}
+
+
+.typed-cursor {
+    opacity: 1;
+    animation: blink .7s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.sonho {
+    font-family: 'Shadows Into Light', cursive;
+    color: #2d2d34
+}
+
+.realidade {
+    font-family: 'Acme', sans-serif;
+    color: #2d2d34
 }

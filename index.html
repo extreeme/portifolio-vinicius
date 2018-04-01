@@ -7,14 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/fa-svg-with-js.css">
+    <link rel="stylesheet" href="assets/css/core.css">
+    <link href="https://fonts.googleapis.com/css?family=Acme|Raleway|Shadows+Into+Light" rel="stylesheet">
+    <script src="assets/js/jquery.min.js"></script>
+
+
 
     <title>Hello, world!</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #2d2d34 !important">
+    <nav class="navbar navbar-expand-lg" style="background-color: #2d2d34 !important">
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-item nav-link" href="#"><i class="fab fa-facebook-square fa-2x" style="color: #fff"></i></a>
@@ -31,11 +36,30 @@
     </nav>
 
 
+    <div clas="container">
+        <div class="row">
 
+            <div class="col-12" id="bgInicial" style="background-color: #f2efea">
+                <div class="text-center textoInicial">
+                    <span class="typed"></span>
+                </div>
+            </div>
+        </div>
 
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/fontawesome-all.min.js"></script>
+    </div>
+
+    <script src="assets/js/bootstrap.min.js "></script>
+    <script src="assets/js/fontawesome-all.min.js "></script>
+    <script src="assets/js/typed.min.js"></script>
+    <script>
+        var options = {
+            strings: ["Meu nome é </br>Vinícius Azevedo </br> e eu faço coisas na internet! </br></br></br> Vamos transformar o seu <span class='sonho'>Sonho</span> em <span class='realidade'> Realidade </span>?"],
+            typeSpeed: 40
+        }
+
+        var typed = new Typed(".typed", options);
+
+    </script>
 </body>
 
 </html>
