@@ -4,7 +4,8 @@
     color: white;
     font-size: 30px;
     font-family: 'Raleway', sans-serif;
-    color: #2d2d34
+    color: #2d2d34;
+    text-align: center;
 }
 
 #bgInicial {
@@ -40,4 +41,9 @@
 .realidade {
     font-family: 'Acme', sans-serif;
     color: #2d2d34
+}
+
+
+ul li {
+    list-style-type: none;
 }
